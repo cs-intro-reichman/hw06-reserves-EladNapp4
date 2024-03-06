@@ -110,7 +110,7 @@ public class Runigram {
 		for (int i = 0; i < rows; i++) {
 			for (int j = 0; j < cols; j++) {
 				int middle = rows / 2;
-				if (i > middle) {
+				if (i >= middle) {
 				    flip[(rows - 1) - i][j] = image[i][j];
 				}
 			}
